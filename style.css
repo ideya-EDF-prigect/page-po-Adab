@@ -1,0 +1,135 @@
+*{ 
+    padding: 0; 
+    margin: 0; 
+    border: 0; 
+   } 
+   *,*:before,*:after{ 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+   } 
+   :focus,:active{outline: none;} 
+   a:focus,a:active{outline: none;} 
+    
+   nav,footer,header,aside{display: block;} 
+    
+   html,body{ 
+    height: 100%; 
+    width: 100%; 
+    font-size: 100%; 
+    line-height: 1; 
+    font-size: 14px; 
+    -ms-text-size-adjust: 100%; 
+    -moz-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%; 
+   } 
+   input,button,textarea{font-family:inherit;} 
+    
+   input::-ms-clear{display: none;} 
+   button{cursor: pointer;} 
+   button::-moz-focus-inner {padding:0;border:0;} 
+   a, a:visited{text-decoration: none;} 
+   a:hover{text-decoration: none;} 
+   ul li{list-style: none;} 
+   img{vertical-align: top;} 
+    
+   h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 700;}
+
+body{
+   background-color: #763C28;
+   font-family: "Inter", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 20px;
+   color: #FFFFFF;
+}
+
+header{
+    background-color: #FFFFFF;
+    padding:20px 1%;
+    color:#763C28 ;
+    font-size: 40px;
+    font-family: 'Playfair', sans-serif;
+}
+h1{
+    text-align: right;
+}
+details summary:before{
+    content:'⤇';
+}
+details[open] summary:before{
+    content:'⤋';
+}
+.Адаб{
+    padding: 4%;
+}
+.Адаб-тема{
+    font-family: 'Playfair', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+.Адаб-Темы{
+    font-family: 'Playfair', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.Адаб-ТемыТема{
+    display: block;
+    margin-bottom: 10px;
+}
+.Адаб-ТемыТема:before{
+    content:'⤇';
+}
+.Адаб-заголовок{
+    font-family: 'Playfair', sans-serif;
+    font-size: 27px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Адаб-содержание{
+    margin-bottom: 10px;
+}
+.Адаб-содержаниеГлава{
+    display: block;
+    margin-bottom: 10px;
+}
+.Адаб-содержаниеГлава:before{
+    content:'→';
+}
+.Адаб-пояснение{
+    background:#8A6642;
+    padding: 20px;
+    margin-bottom:20px;
+    box-shadow: inset 0px 0px 13px #FFFFFF;
+}
+.Адаб-список{
+    margin-bottom: 20px;
+    margin-left:30px;
+}
+ol{
+    list-style:decimal;
+}
+.Адаб-проРечьАллаха{
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    background: #287233;
+    box-shadow: inset 5px 3px 15px  #FFFFFF;
+}
+.Адаб-Cунна{
+    padding: 20px 10px;
+    background: #B7410E;
+    box-shadow: inset 0px 0px 15px #FFFFFF;
+}
+.Адаб-сподвижники{
+    padding: 20px 15px;
+    background: #B87333;
+    margin-bottom: 20px;
+    box-shadow: inset 5px 0px 15px #FFFFFF;
+}
+.Адаб-учёные{
+    padding: 20px 15px;
+    margin-bottom: 20px;
+    background: #B15124;
+    box-shadow: inset 0px 0px 20px #FFFFFF;
+}
