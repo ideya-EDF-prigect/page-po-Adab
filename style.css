@@ -1,0 +1,203 @@
+*{ 
+    padding: 0; 
+    margin: 0; 
+    border: 0; 
+   } 
+   *,*:before,*:after{ 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+   } 
+   :focus,:active{outline: none;} 
+   a:focus,a:active{outline: none;} 
+    
+   nav,footer,header,aside{display: block;} 
+    
+   html,body{ 
+    height: 100%; 
+    width: 100%; 
+    font-size: 100%; 
+    line-height: 1; 
+    font-size: 14px; 
+    -ms-text-size-adjust: 100%; 
+    -moz-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%; 
+   } 
+
+   html{
+    scroll-behavior: smooth;
+   }
+   
+   input,button,textarea{font-family:inherit;} 
+    
+   input::-ms-clear{display: none;} 
+   button{cursor: pointer;} 
+   button::-moz-focus-inner {padding:0;border:0;} 
+   a, a:visited{text-decoration: none;} 
+   a:hover{text-decoration: none;} 
+   ul li{list-style: none;} 
+   img{vertical-align: top;} 
+    
+   h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 700;}
+
+body{
+   background-color: #763C28;
+   font-family: "Merriweather", serif;
+   line-height: 30px;
+   font-optical-sizing: auto;
+   font-weight: 700;
+   font-style: normal;
+   font-variation-settings:
+    "wdth" 100;
+   font-size: 20px;
+   color: #FFFFFF;
+}
+
+header{
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    padding:20px 1%;
+    color:#572205;
+    font-size: 40px;
+    font-family: "Merriweather", serif;
+}
+.Адаб__навигация{
+    display: flex;
+    justify-content: space-around;
+}
+.Адаб__НавCсылки{
+    display: flex;
+    flex-direction: column;
+}
+.Адаб__сылкаРаздел{
+    color: #763C28;
+    margin-top: 5px;
+    font-size: 30px;
+}
+.Адаб__сылкаРаздел::before{
+    content:'⤇'
+}
+h1{
+    display: inline-block;
+    text-align: right;
+}
+details summary{
+    list-style: none;
+}
+details summary:before{
+    content:'⤇';
+}
+details[open] summary:before{
+    content:'⤋';
+}
+.описание{
+    background-color:#6e3623;
+    color: #FFFFFF;
+}
+.Адаб{
+    margin:4%;
+    scroll-margin-top: 40px;
+}
+
+.Адаб__тема{
+    font-family: "Merriweather", serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}    
+.Адаб__Темы{
+    font-family: "Merriweather", serif;
+    text-align: center;
+    font-size: 25px; 
+    margin-bottom: 15px;
+}
+.Адаб__ТемыТема{
+    color: #FFFFFF;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Адаб__ТемыТема:before{
+    content:'⤇';
+}
+.Адаб__заголовок{
+    font-family: "Merriweather", serif;
+    font-size: 27px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.Адаб__содержание{
+    margin-bottom: 20px;
+}
+.Адаб__содержаниеГлава{
+    display: block;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.Адаб__содержаниеГлава:before{
+    content:'→';
+}
+.Адаб__глава{
+    scroll-margin-top: 40px;
+}
+.Адаб__пояснение{
+    background:#572205;
+    padding: 20px;
+    margin-bottom:20px;
+    box-shadow: inset 0px 0px 13px #FFFFFF;
+}
+.Адаб__список{
+    margin-bottom: 20px;
+    margin-left:30px;
+}
+ol{
+    list-style:decimal;
+}
+.Адаб__проРечьАллаха{
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    background: #287233;
+    box-shadow: inset 5px 3px 15px  #FFFFFF;
+}
+.Адаб__Cунна{
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    background: #B7410E;
+    box-shadow: inset 0px 0px 15px #FFFFFF;
+}
+.Адаб__сподвижники{
+    padding: 20px 15px;
+    background: #8A6642;
+    margin-bottom: 20px;
+    box-shadow: inset 5px 0px 15px #FFFFFF;
+}
+.Адаб__учёные{
+    padding: 20px 15px;
+    margin-bottom: 20px;
+    background: #8E402A;
+    box-shadow: inset 0px 0px 5px #FFFFFF;
+}
+@media(max-width:768px) {
+    body{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    header{
+        font-size: 30px;
+    }
+    .Адаб__тема{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .Адаб__Темы{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .Адаб__заголовок{
+        font-size: 19px;
+    }
+    .Адаб__сылкаРаздел{
+        font-size: 20px;
+    }
+}
